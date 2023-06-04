@@ -1,0 +1,7 @@
+.header p{
+    margin: 1rem 2rem !important;
+    text-align: left;
+}
+.header{
+    border-bottom: 1px solid white;
+}

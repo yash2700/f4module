@@ -1,0 +1,15 @@
+.card-details{
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column !important; 
+    justify-content: flex-start !important  ;
+    align-items: flex-start !important;
+    margin: 2rem !important;
+}
+
+img{
+    border-radius: 5px;
+}
+.card-details p{
+    text-align: left;
+}
