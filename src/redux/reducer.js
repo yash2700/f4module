@@ -1,6 +1,7 @@
 // cardReducer.js
 const initialState = {
     cards: [],
+    isLoading:true,
     error: null,
   };
   
@@ -9,6 +10,7 @@ const initialState = {
       case 'FETCH_CARDS_SUCCESS':
         return {
           ...state,
+          isLoading:false,
           cards: action.payload,
           error: null,
         };
@@ -16,6 +18,7 @@ const initialState = {
         return {
           ...state,
           cards: [],
+          isLoading:true,
           error: action.payload,
         };
       default:
